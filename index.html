@@ -3,38 +3,42 @@
 <head>
   <meta charset="utf-8">
   <title>Hoja de Vida Digital</title>
-  <style media="screen">
-    #maqueta {
-      display: flex;
-    }
-    .izqBorde {
-      width: 15%;
-      height: 1080px;
-    }
-    .cuerpo {
-      width: 70%;
-      border-radius: 10px;
-      margin-top: 60px;
-      margin-bottom: 60px;
-      border: 2px solid #de7e0e;
-    }
-    .derBorde {
-      width: 15%;
-      height: 1080px;
-    }
-    h1 {
-      padding-left: 25px;
-    }
-  </style>
+  <link rel="StyleSheet" href="css/estilo.css" type="text/css">
 </head>
 <body id="maqueta">
   <div class="izqBorde">
   </div>
   <div class="cuerpo">
-    <svg>
+    <header>
+      <svg>
       <image xlink:href="images/drawing.svg" width="300"></image>
-    </svg>
-    <h1>Hoja de Vida Digital</h1>
+      </svg>
+    </header>
+    <nav align="center">
+      <div class="menu">
+        <a href="#"><div class="item">Inicio</div></a>
+        <a href="educacion.html"><div class="item">Educación</div></a>
+        <a href="experiencia.html"><div class="item">Experiencia</div></a>
+      </div>
+    </nav>
+    <section>
+      <h1>Curriculum Vitae</h1>
+      <article class="">
+        <img id="foto" align="center" src="images/foto.jpg" alt="Foto de Perfil">
+        <h2>Datos Personales</h2>
+        <p>Nombre: Alberto Enrique Gomez Juan</p>
+        <p>Fecha de nacimiento: 12 de Enero de 1987</p>
+        <p>Nacionalidad: Colombia.</p>
+
+        <h2>Perfil</h2>
+        <p>Capacidades profesionales en áreas relacionadas con investigación, transformación y conservación de materias primas alimentarias, énfasis en control de calidad de la producción bajo los estándares BPM, HACCP. Habilidades en la iniciación, planeación y gestión de proyectos en la industria alimentaria.</p>
+        <p>Persona responsable, proactiva y orientada a resultados. Facilidad para el aprendizaje, trabajo en equipo, liderazgo y asumir nuevos retos. Actualmente, realizo estudios en Biotecnología Avanzada aplicada a la industria alimentaria.</p>
+      </article>
+    </section>
+
+    <footer> <hr width="500"> Evaluación Final Curso Fundamentos de HTML.<br>
+      Next University <br>
+      Copyright © 2019 Alberto Gómez Juan. <br> </footer>
   </div>
 <div class="derBorde">
 
