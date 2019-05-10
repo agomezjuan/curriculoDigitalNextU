@@ -67,11 +67,31 @@ a {
   color: #931a3d;
   text-decoration: none;
 }
-h2 {
+h2, h3 {
   padding-left: 35px;
   color: #931a3d;
 }
 p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+div.tabla {
+  text-align: center;
+}
+table.edu {
+  margin: 0 auto;
+  text-align: left;
+  border: 2px solid #931a3d;
+}
+thead, th {
+  border-bottom: 2px solid #931a3d;
+  text-align: center;
+  background-color: #f58b1f;
+}
+td.x {
+  border-bottom: 1px solid #931a3d;
+}
+.newedu {
   padding-left: 60px;
   padding-right: 60px;
 }
