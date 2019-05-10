@@ -4,24 +4,36 @@
   <meta charset="utf-8">
   <title>Hoja de Vida Digital</title>
   <style media="screen">
+    #maqueta {
+      display: flex;
+    }
     .izqBorde {
-      width: 10%;
+      width: 15%;
+      height: 1080px;
     }
     .cuerpo {
-      width: 80%;
+      width: 70%;
+      border-radius: 10px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      border: 2px solid #de7e0e;
     }
     .derBorde {
-      width: 10%;
+      width: 15%;
+      height: 1080px;
+    }
+    h1 {
+      padding-left: 25px;
     }
   </style>
 </head>
-<body>
+<body id="maqueta">
   <div class="izqBorde">
-    <svg>
-      <image xlink:href="images/drawing.svg" width="70%"></image>
-    </svg>
   </div>
   <div class="cuerpo">
+    <svg>
+      <image xlink:href="images/drawing.svg" width="300"></image>
+    </svg>
     <h1>Hoja de Vida Digital</h1>
   </div>
 <div class="derBorde">
