@@ -6,6 +6,7 @@
   <style media="screen">
     #maqueta {
       display: flex;
+      background-color: #f58b1f;
     }
     .izqBorde {
       width: 15%;
@@ -16,14 +17,31 @@
       border-radius: 10px;
       margin-top: 60px;
       margin-bottom: 60px;
-      border: 2px solid #de7e0e;
+      border: 2px solid #931a3d;
+      background-color: #f7e9c1;
     }
     .derBorde {
       width: 15%;
       height: 1080px;
     }
+    nav {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
     h1 {
-      padding-left: 25px;
+      margin-top: 0px;
+      text-align: center;
+      text-decoration: overline;
+      font-family: sans-serif;
+      color: #931a3d;
+    }
+    .menu {
+      background-color: #f58b1f;
+      justify-content: center;
+      width: 60px;
+      height: 25px;
+      align-content: center;
     }
   </style>
 </head>
@@ -31,10 +49,26 @@
   <div class="izqBorde">
   </div>
   <div class="cuerpo">
-    <svg>
-      <image xlink:href="images/drawing.svg" width="300"></image>
-    </svg>
-    <h1>Hoja de Vida Digital</h1>
+    <header>
+      <svg>
+        <image xlink:href="images/drawing.svg" width="300"></image>
+      </svg>
+    </header>
+    <nav align="center">
+      <div class="menu">
+        <div class=""><a href="#">Inicio</a></div>
+        <div class=""><a class="menu" href="educacion.html">Educación</a></div>
+        <div class="">
+
+        </div>
+      </div>        |
+      <a class="menu" href="exoeriencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <h1>Hoja de Vida Digital</h1>
+    </section>
+
+    <footer></footer>
   </div>
 <div class="derBorde">
 
