@@ -95,8 +95,12 @@ td.x {
   padding-left: 60px;
   padding-right: 60px;
 }
-div.audio {
+div.media {
   text-align: center;
+}
+video {
+  border-radius: 20px 20px 0 0;
+  border: 2px solid #931a3d;
 }
 audio {
   height: 30px;
@@ -110,5 +114,6 @@ audio {
 .adl {
   font-size: 18px;
   font-weight: bold;
+  margin-top: 60px;
   color: #931a3d;
 }
