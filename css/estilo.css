@@ -95,3 +95,20 @@ td.x {
   padding-left: 60px;
   padding-right: 60px;
 }
+div.audio {
+  text-align: center;
+}
+audio {
+  height: 30px;
+  border-style: ridge;
+  border-radius: 20px;
+  background: #grey;
+  margin: 0 auto;
+  text-align: left;
+  border: 2px solid #931a3d;
+}
+.adl {
+  font-size: 18px;
+  font-weight: bold;
+  color: #931a3d;
+}
